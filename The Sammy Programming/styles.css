@@ -1,0 +1,81 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: "Courier New", Courier, monospace;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#formulario {
+    margin: 50px auto;
+    width: 50%;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input, select, textarea, button {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+}
+
+input, select, textarea {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+button {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+    color: #fff;
+}
